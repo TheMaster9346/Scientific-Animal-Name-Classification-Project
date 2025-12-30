@@ -12,7 +12,7 @@ def extract_animal_name(file_path):
     return folder_name
 
 
-scientific_animal_name_model = load_learner("scientific_animal_name_model.pkl")
+scientific_animal_name_model = load_learner("scientific_animal_name_model(1).pkl")
 
 def predict(image):
     img = PILImage.create(image)
